@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.1-runtime-ubuntu20.04
+FROM nvidia/cuda:11.1.1-runtime-ubuntu20.04
 
 # Download Miniconda py39 - https://docs.conda.io/en/latest/miniconda.html#linux-installers
 RUN apt-get -qq update && apt-get -qq -y install curl bzip2 git build-essential \
